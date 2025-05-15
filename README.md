@@ -53,4 +53,4 @@ python civil608_a2.py
 ```
 
 ## Expected output visualization
-<image src="expected_output.png" width="400">
+<image src="expected_output.png" width="500">
