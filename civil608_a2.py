@@ -172,7 +172,9 @@ plt.axis('equal')
 plt.xticks(fontsize=12)
 plt.yticks(fontsize=12)
 
-plt.show()
+# plt.show()
+## save the plot as svg file
+plt.savefig("multi_pedestrian_trajectory_prediction.svg", format='svg', bbox_inches='tight')
 
 # --- Output some information for the first pedestrian as an example ---
 if observed_trajectories_all_peds:
